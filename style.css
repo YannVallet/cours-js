@@ -6,7 +6,7 @@
 body {
   text-align: center;
   margin: 0;
-  color: red;
+  color: white;
   min-height: 200vh;
   overflow-x: hidden;
   background-color: sienna;
@@ -25,7 +25,7 @@ p {
 }
 
 .question-clicked {
-  background: red;
+  background: white
   border-radius: 30px;
   border: 6px dashed pink;
 }
