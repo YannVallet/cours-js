@@ -25,7 +25,7 @@ p {
 }
 
 .question-clicked {
-  background: white
+  background: white;
   border-radius: 30px;
   border: 6px dashed pink;
 }
