@@ -9,12 +9,13 @@ body {
   color: white;
   min-height: 200vh;
   overflow-x: hidden;
+  background-color: sienna;
 }
 
 .box {
   border: 6px solid white;
   transition: 0.25s ease;
-  background: red;
+  background: black;
   padding: 10px;
 }
 p {
