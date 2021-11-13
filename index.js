@@ -47,3 +47,20 @@ const key = document.getElementById("key");
 document.addEventListener("keypress", (e) => {
   key.innerHTML = e.key;
 });
+
+// SCROLL EVENT -----------------------------
+
+const nav = document.querySelector("nav");
+
+window.addEventListener("scroll", () => {
+  console.log(window.scrollY);
+
+  if (window.scrollY > 120) {
+    // scrollY recup les info du scroll, active fonction à partir de 120px
+    nav.style.top = 0;
+  } else {
+    nav.style.top = "-50px";
+  }
+});
+
+///--------------------------------
